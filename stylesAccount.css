@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container h1{
+    text-align: center;
+}
+
+.AC {
+    background-color: rgb(0, 255, 98);
+    border-radius: 25px;
+}
+
+.galka {
+    border: 10;
+    border-radius: 50%;
+}
+
+.Nad {
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    border-radius: 25px;
+}
+
+
+
+.nazad {
+    color: rgb(20, 45, 92);
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 25px;
+    font-family: inherit;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nazad:hover {
+    opacity: 0.9;
+}
+body {
+    background-color: rgb(58, 240, 231);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 350px;
+}

@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: lightblue;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+
+  /* font: bold 20px 'Roboto', sans-serif; */
+
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+a {
+  color: rgb(20, 45, 92);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(7, 101, 156);
+}
+
+a:active {
+  color: rgb(206, 248, 248);
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 10px rgb(37, 62, 68);
+}
+
+.info p {
+  color: rgb(90, 122, 138);
+  font-style: italic;
+  text-decoration: none;
+  /* text-transform: capitalize; */
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* .social {
+    background: rgb(231, 246, 255);
+    padding: 15px; 
+    border: 5px solid rgb(32, 188, 209);
+} */
+
+.bg-lightblue {
+  background: #85fcf6;
+}
+
+.bg-snowblue {
+  background: #d4fffd;
+}
+
+.bg-badlightblue {
+  background: #2d7aa7;
+}
+
+.bg-anotherblue {
+  background: #0da6ff;
+}
+
+.bg-anotherblue2 {
+  background: #1887c7;
+}
+
+.bg-anotherblue3 {
+  background: #76c4f1;
+}
+
+.bg-red {
+  background: #f79d9d;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0px 20px;
+}
+
+.list li {
+  color: #526283;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.games-list {
+  list-style: none;
+  padding: 0;
+}
+
+.games-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.account h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  padding-top: 14px;
+  color: #0f3952;
+}
+
+.button-avatar {
+  background-color: #00c3ff;
+  border-radius: 25px;
+  padding-top: 0;
+  width: 100%;
+  margin-top: 5px;
+  transition: all 0.1s linear;
+}
+
+.button-avatar:hover {
+  background-color: #1fadff;
+  cursor: pointer;
+}
+
+.form-group-avatar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.form-group input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000;
+  color: #000;
+  padding: 15px 5px 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.s {
+  text-align: center;
+}
+
+.form-group-color input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+.form-group-color label {
+  display: block;
+  font-size: 14px;
+  padding-top: 14px;
+  color: #0f3952;
+}
+
+.form-group-avatar input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.form-group-avatar label {
+  display: block;
+  font-size: 14px;
+  padding: 5px;
+  color: #0f3952;
+}
+
+.interes-mest {
+  text-align: center;
+}
+
+.hobbi {
+  text-align: center;
+}
+
+.yalub {
+  text-align: center;
+}
+
+.socialtext {
+  text-align: center;
+}
+
+.igri {
+  text-align: center;
+}
+
+.create {
+  display: block;
+  font-size: 14px;
+  background-color: #85fcf6;
+  border-radius: 25px;
+  padding: 10px 330px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.attention__header {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .create {
+    padding: 10px 180px;
+  }
+}
+
+.info-text {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.create:hover {
+  opacity: 0.8;
+}
+
+.game_icon {
+  border-radius: 25%;
+}
